@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorRoutingSample", "RazorRoutingSample\RazorRoutingSample.csproj", "{BDF29D27-FDEC-48E4-AECF-D24B7CFCDEC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorRoutingSample", "RazorRoutingSample\RazorRoutingSample.csproj", "{BDF29D27-FDEC-48E4-AECF-D24B7CFCDEC1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2EB3BD54-A88C-4781-9C44-B8B344FDD9C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BDF29D27-FDEC-48E4-AECF-D24B7CFCDEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDF29D27-FDEC-48E4-AECF-D24B7CFCDEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDF29D27-FDEC-48E4-AECF-D24B7CFCDEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB3BD54-A88C-4781-9C44-B8B344FDD9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB3BD54-A88C-4781-9C44-B8B344FDD9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB3BD54-A88C-4781-9C44-B8B344FDD9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB3BD54-A88C-4781-9C44-B8B344FDD9C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

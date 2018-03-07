@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  razorroutingsample:
+    image: razorroutingsample
+    build:
+      context: .
+      dockerfile: RazorRoutingSample/Dockerfile
+    ports:
+      - "5000:5000"
